@@ -1,0 +1,56 @@
+// Header Styling
+.main-header {   
+    padding: 0.5rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 1;
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    // Your logo styling
+    .navbar-brand {
+      img{
+        height: 60px;
+      }
+    }
+  
+    // Nav Item Styling
+    .main-nav {
+      ul {
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+  
+        li {
+          a {
+            text-decoration: none;
+            color: inherit;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.3s;          
+            &:hover {
+              color: #306FD5; // Add a hover effect, you can customize this
+            }
+          }
+          .link-active {
+            color: #306FD5;
+          }
+        }
+      }
+    }
+  
+    // Auth Button Styling
+    .auth-buttons {
+      .btn{
+        border-radius: 30px;
+        margin-left: 0.5rem;
+      }
+    }
+  }
+  

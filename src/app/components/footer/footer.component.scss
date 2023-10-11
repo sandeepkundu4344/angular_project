@@ -1,0 +1,21 @@
+// Footer Styling
+footer{
+    padding: 0.5rem 0rem;
+    border-top: 1px solid #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background: #fff;
+
+    // Footer Supported Links (Call And Mail)
+    .support-link{
+        color: #000000;
+        margin-right: 1.5rem;
+        img{
+            vertical-align: top;
+            margin-right: 0.3rem;
+        }
+    }
+}

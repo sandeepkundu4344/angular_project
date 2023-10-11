@@ -1,0 +1,10 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 70px); 
+    padding-top: 0; 
+    h1{
+        margin: auto;
+    }
+  }

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="25" height="25">
+	<title>envelope</title>
+	<defs>
+		<image  width="25" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAMAAADzN3VRAAAAAXNSR0IB2cksfwAAAFpQTFRFAAAAEBBACx49DBw+DBw8CBhACx0+DB0+DB4+DBw+DBw+Cx0+DBw9CBg4Cx4+DB09DB0+DR09Cx09DB09ECBACCBACx09Cxs9DB4+CCA4DB4+CyA6DB0+DB4+a6T3BwAAAB50Uk5TABBwgEAg3/9/kM+gvyBvv+9QYK8QIJ9wjyDPMI+ApyUPkwAAAJhJREFUeJyt0UsSgyAQBNBRcNokRhEh5nv/awYQypLgKvbCha96BIfo4FS1yCMDNIzftF5OOOeVC1A56cDXbH4PyCCxnNIMSOJsWGu9AnMUOTJYx4NOwGS6JGTdN2++JhlqXt6lp3YzZHUHugdthewTUMAcZm6ESAD8opKQrQ2VZc0/Mu6IAOf/+g34W5nSfj5LV+/s9Mh8AXy0CA/YFK1BAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer 1" href="#img1" x="0" y="0"/>
+</svg>

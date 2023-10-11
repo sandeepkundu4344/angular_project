@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="25" height="25">
+	<title>call</title>
+	<defs>
+		<image  width="25" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAMAAADzN3VRAAAAAXNSR0IB2cksfwAAAGNQTFRFAAAADR09DBw+DBw8DBw+DB0+DB4+Cx09Cx0+Cx0+CxtACxs9DBw+Cxs9Cx49Cx09DB0+CCBACx0/CCE6Cxs6EBBADB4+DB0+DBw9CBg4DB09ECBADB4+DB0+Cx4+DB09Cx0/LiNnKwAAACF0Uk5TAFCAQM//f2DfoDBgkHBwn+8g3x8wEIDAvyC/EM+PX6+flLIbLAAAAMZJREFUeJx9kuESgiAQhEHc1CiFkkKs7P2fsjtzDIVpf3CjH8ceq0L8kyxIKgNKzDokoEJNLQ1w3JMGOiqxTjhzaXHaE42Oi4LZE7u8uuC6RwY8cQ+41OhGwKQ+7OBotHsChPDUpIBMCtQ00Jn1kGsKvDByWsYbrKHUxgdq2deUYHhWK5LAS4wTYOD9Nt6CEa+NEKMq4rsV8z7bfp/KeFBCYfX2mysoMu+GHBGWvh466VKyMITpnUnXVvPQnHGqUek29yP99AFDoQh6D71O5wAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer 2" href="#img1" x="0" y="0"/>
+</svg>

@@ -1,0 +1,225 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+// Font Family Starts Here
+
+// AvenirNext Regular
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('assets/fonts/AvenirNextforINTUIT-Regular.otf') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+// AvenirNext Italic
+@font-face {
+    font-family: 'AvenirNext Italic';
+    src: url('assets/fonts/AvenirNextforINTUIT-Italic.otf') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+// AvenirNext Thin
+@font-face {
+    font-family: 'AvenirNext Thin';
+    src: url('assets/fonts/AvenirNextforINTUIT-Thin.otf') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+// AvenirNext Italic
+@font-face {
+    font-family: 'AvenirNext ThinItalic';
+    src: url('assets/fonts/AvenirNextforINTUIT-ThinIt.otf') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+// AvenirNext Medium
+@font-face {
+    font-family: 'AvenirNext Medium';
+    src: url('assets/fonts/AvenirNextforINTUIT-Medium.otf') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+// AvenirNext Medium Italic
+@font-face {
+    font-family: 'AvenirNext MediumItalic';
+    src: url('assets/fonts/AvenirNextforINTUIT-MediumIt.otf') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+// AvenirNext Semi Bold (Demi Bold)
+@font-face {
+    font-family: 'AvenirNext Demi';
+    src: url('assets/fonts/AvenirNextforINTUIT-Demi.otf') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+// AvenirNext Semi Bold (Demi Bold) Italic
+@font-face {
+    font-family: 'AvenirNext DemiItalic';
+    src: url('assets/fonts/AvenirNextforINTUIT-DemiIt.otf') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+// AvenirNext Bold
+@font-face {
+    font-family: 'AvenirNext Bold';
+    src: url('assets/fonts/AvenirNextforINTUIT-Bold.otf') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+// AvenirNext Bold Italic
+@font-face {
+    font-family: 'AvenirNext BoldItalic';
+    src: url('assets/fonts/AvenirNextforINTUIT-BoldIt.otf') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+// AvenirNext Black (Heavy)
+@font-face {
+    font-family: 'AvenirNext Black';
+    src: url('assets/fonts/AvenirNextforINTUIT-Heavy.otf') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+// AvenirNext Black (Heavy) Italic
+@font-face {
+    font-family: 'AvenirNext BlackItalic';
+    src: url('assets/fonts/AvenirNextforINTUIT-HeavyIt.otf') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+// Font Family Ends Here
+
+
+// Variables for typography
+$font-family-base: 'AvenirNext', sans-serif;
+$base-font-size: 17px;
+$primary-color: #306FD5;
+$dark-color: #303030;
+
+// Reset styles for margins and padding
+$reset-margin-padding: 0;
+
+// Set box-sizing to border-box for all elements
+* { box-sizing: border-box; }
+
+// Base typography settings for the entire HTML document
+html { font-family: $font-family-base;}
+body { 
+    font-size: $base-font-size;
+    line-height: 1.5;
+    margin: $reset-margin-padding;
+    padding: $reset-margin-padding;
+    font-family: $font-family-base;
+}
+
+// Heading styles
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.125rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.875rem; }
+
+// Paragraph styles
+p { font-size: $base-font-size; }
+
+// Link Styles
+a { text-decoration: none; }
+
+// Button Styling
+.btn { 
+    padding: 0.5rem 1.8rem;
+    display: inline-block; 
+    font-family: $font-family-base;
+    font-size: $base-font-size;
+    cursor: pointer; 
+    line-height: 1.5;
+}
+.btn-primary { color:#fff;background-color: $primary-color;border: 0; }
+.btn-outlined { border: 1px solid #303030;color: #303030; }
+
+// Container
+.container {
+    padding: 0 1.5rem;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+// FlexBoxes
+.flex { display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex; }
+.align-items-center { align-items: center; }
+
+// Row Styling
+.row 
+{ 
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+// Columns Styling Start
+.column-xl-6{max-width: 50%;flex: 0 0 50%;padding-left: 15px;padding-right: 15px;}
+.column {    
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-xl-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-xl-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+// Columns Styling End
+
+// Margins
+.no-margin{ margin:0 }
+
+// Text Alignment Styling
+.text-end{ text-align:right }
+
+// Rounded Box Styling
+.rounded{
+    border-radius: 30px;
+}
+
+// QR Box 
+.qr-box{
+    border-radius: 10px;
+    background-color: #F2F8FD;
+    padding: 15px;
+    margin-top: -80px;
+}
